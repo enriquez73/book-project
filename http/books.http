@@ -1,0 +1,30 @@
+### Get all books
+GET http://localhost:8080/api/books
+Accept: application/json
+
+
+### Search books
+GET http://localhost:8080/api/books/search?title=java
+Accept: application/json
+
+
+### Create book
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+  "title": "Java Concurrency in Practice",
+  "isbn": "9780321349606",
+  "price": 42.90,
+  "publicationDate": "2006-05-19"
+}
+
+### Create invalid book
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+  "title": "",
+  "isbn": "",
+  "price": -10
+}

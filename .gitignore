@@ -1,0 +1,41 @@
+# ==========================================
+# Compiled Java Class Files & Executables
+# ==========================================
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ==========================================
+# Build Output Directories
+# ==========================================
+# Target per Maven
+target/
+# Build per Gradle
+build/
+.gradle/
+
+# ==========================================
+# IntelliJ IDEA Configuration Files
+# ==========================================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eccezione opzionale: se vuoi tracciare lo stile di codice del team,
+# scommenta la riga sotto:
+# !.idea/codeStyles/
+
+# ==========================================
+# OS & Environment Files
+# ==========================================
+.DS_Store
+Thumbs.db
+*.env
