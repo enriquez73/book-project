@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:postgresql://192.168.1.11:5432/bookstore
     username: bookstore_user
-    password: S3cr3t!
+    password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
