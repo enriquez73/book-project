@@ -39,3 +39,6 @@ out/
 .DS_Store
 Thumbs.db
 *.env
+./src/main/resources/application.yml
+./src/main/resources/db/migration/data-model-snapshot.json
+./set-env.sh

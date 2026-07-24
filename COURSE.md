@@ -53,7 +53,7 @@ Architecture:
 - [x] findByIsbn()
 - [x] existsByIsbn()
 - [x] save()
-- [ ] delete()
+- [x] delete()
 - [x] Entity lifecycle
 - [x] Hibernate Persistence Context
 - [x] Dirty Checking
@@ -72,13 +72,13 @@ Architecture:
 - [x] CreateBookRequest
 - [x] UpdateBookRequest
 - [x] Bean Validation
-- [ ] MapStruct
+- [x] MapStruct
 - [x] ResponseEntity
 - [x] Custom exceptions
 - [x] @RestControllerAdvice
 - [x] @ExceptionHandler
 - [x] HTTP 409 Conflict
-- [ ] Bean Validation error handling
+- [x] Bean Validation error handling
 
 ---
 
@@ -91,21 +91,31 @@ Architecture:
 - [x] Hibernate ddl-auto=validate
 - [x] Database constraints
 - [x] UNIQUE constraint
+- [x] Application uniqueness check vs DB constraint
+- [x] Race condition on uniqueness checks
 - [ ] Relationships
 - [ ] Author
 - [ ] Category
 
 ---
 
-# Lesson 5 - Security
+# Lesson 5 - Security 🚧
 
-- [ ] Spring Security
-- [ ] SecurityFilterChain
-- [ ] Authentication
-- [ ] Authorization
-- [ ] JWT
-- [ ] Roles
-- [ ] Method Security
+- [x] Spring Security fundamentals
+- [x] SecurityFilterChain concept
+- [x] Authentication vs Authorization
+- [x] SecurityContext / SecurityContextHolder
+- [x] Roles vs Authorities
+- [x] HTTP 401 vs 403
+- [x] Stateless authentication concept
+- [x] JWT / Bearer Token concept
+- [x] OAuth2 Resource Server concept
+- [x] CSRF basics for stateless APIs
+- [ ] Spring Security implementation
+- [ ] SecurityFilterChain implementation
+- [ ] JWT implementation
+- [ ] Roles / Authorities mapping
+- [ ] Method Security / @PreAuthorize
 
 ---
 
